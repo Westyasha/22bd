@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22 ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>С Днем Рождения, Миленко!</h1>
+        <p>Твои брадки всегда рядом. Мы приготовили для тебя небольшой сюрприз... но его придется поймать!</p>
+        
+        <button id="runaway-btn">Получить подарок</button>
+    </div>
+
+    <div id="secret-hint">?</div>
+
+    <div id="secret-lock">🔑</div>
+    
+    <div id="hint-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p class="sequence-text">ТГ > ДС > Сайт > Кнопка</p>
+        </div>
+    </div>
+
+    <div id="pin-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>ДОСТУП К ПРОТОКОЛУ</h2>
+            <p>Требуется ключ доступа.</p>
+            <input type="password" id="pin-input" maxlength="4" placeholder="----">
+            <button id="submit-pin" class="valorant-btn">ДЕШИФРОВАТЬ</button>
+        </div>
+    </div>
+    
+    <div id="digit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p class="digit-display">7</p>
+        </div>
+    </div>
+
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>ПРОТОКОЛ РАСШИФРОВАН!</h2>
+            <p>Вот твой долгожданный промокод:</p>
+            <p class="promo-code">RA-7HPNXHFEEJ76UJWM</p>
+            <p>С любовью, твои брадки ❤️</p>
+        </div>
+    </div>
+
+    <div class="signature">От Krakusha и W3st <3</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
